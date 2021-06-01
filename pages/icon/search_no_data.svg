@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="364px" height="150px" viewBox="0 0 364 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>编组 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-41.7961406%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#B5BCC8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="48.3705502%" y1="34.0408437%" x2="50%" y2="56.8448715%" id="linearGradient-2">
+            <stop stop-color="#B5BCC8" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="107.395128%" y1="50%" x2="9.08322838%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#EEEEEE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#BEC5CF" offset="0%"></stop>
+            <stop stop-color="#DDE1E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="107.395128%" y1="50%" x2="9.08322838%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#EEEEEE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#BEC5CF" offset="0%"></stop>
+            <stop stop-color="#DDE1E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="107.395128%" y1="50%" x2="9.08322838%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#EEEEEE" stop-opacity="0.678649476" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="107.395128%" y1="50%" x2="9.08322838%" y2="50%" id="linearGradient-8">
+            <stop stop-color="#EEEEEE" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-9">
+            <stop stop-color="#BEC5CF" offset="0%"></stop>
+            <stop stop-color="#DDE1E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="10.4938272%" x2="84.2004411%" y2="89.5061728%" id="linearGradient-10">
+            <stop stop-color="#C2C9D2" offset="0%"></stop>
+            <stop stop-color="#C2C9D2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="暂无信息">
+            <g id="编组-2">
+                <path d="M50.5,85.6181242 C55.7158283,73.4690444 60.2458027,67.1897629 64.0899232,66.7802799 C69.856104,66.1660554 70.3806004,73.5984832 75.7764316,73.5894598 C86.6118183,73.5713399 89.9846206,12.5820334 104.221246,13.0021606 C118.457872,13.4222878 124.345737,52.9224927 135.666576,53.01882 C142.192737,53.0743502 146.104644,40.8298024 152.115979,41.0612761 C163.960801,41.5173754 165.060358,79.6987334 178.873634,79.6987334 C183.142017,79.6987334 183.335862,77.0672527 187.410106,77.1586554 C190.126268,77.2195905 192.896072,79.570348 195.719517,84.210928 L50.5,85.6181242 Z" id="Path-122" fill="url(#linearGradient-1)"></path>
+                <path d="M97.5,96.3191665 L363.725366,98.502461 C361.903223,92.3865656 359.063787,89.2509249 355.207058,89.0955389 C349.421964,88.8624599 346.792517,94.2066214 338.099749,93.8531425 C329.406982,93.4996636 325.888588,69.8787245 318.427922,70.0140179 C310.967256,70.1493113 310.45313,77.8112383 302.800705,77.8112383 C291.626685,77.8112383 282.538196,31.4437211 266.784522,30.9462945 C255.799428,30.5994372 256.296196,44.6833004 244.250535,44.750441 C232.204875,44.8175816 227.93569,0.839793083 209.472601,0.0120223291 C184.073605,-1.12671162 173.084,79.0106832 157.366702,77.8112383 C146.753034,77.0012703 146.614999,67.4532735 138.765709,67.9849402 C130.91642,68.5166068 124.745472,90.9706424 118.515348,91.4918822 C112.285225,92.013122 110.46214,87.935443 104.770239,88.3977468 C100.975639,88.7059493 98.552226,91.3464225 97.5,96.3191665 Z" id="Path-121" fill="url(#linearGradient-2)"></path>
+                <ellipse id="椭圆形" fill="#FFFFFF" cx="177" cy="109.506557" rx="177" ry="40"></ellipse>
+                <g id="编组备份" transform="translate(44.500000, 63.000000)">
+                    <ellipse id="椭圆形" fill="url(#linearGradient-3)" cx="11.2701569" cy="30.1" rx="8.75" ry="1.4"></ellipse>
+                    <rect id="Rectangle-89" fill="#BDC7E1" x="6.02015695" y="18.2" width="1.4" height="11.9"></rect>
+                    <path d="M6.72015695,22.4 C10.4315971,22.4 13.4403139,19.7978666 13.4403139,16.5879724 C13.4403139,13.3780781 9.03974982,-0.349740586 6.72015695,0.00682079743 C4.40056408,0.363382181 1.7408297e-14,13.3780781 1.7408297e-14,16.5879724 C1.7408297e-14,19.7978666 3.00871675,22.4 6.72015695,22.4 Z" id="Oval-40" fill="url(#linearGradient-4)"></path>
+                </g>
+                <g id="编组备份-2" transform="translate(268.500000, 68.000000)">
+                    <ellipse id="椭圆形" fill="url(#linearGradient-5)" cx="9.01612556" cy="24.08" rx="7" ry="1.12"></ellipse>
+                    <rect id="Rectangle-89" fill="#BDC7E1" x="4.81612556" y="14.56" width="1.12" height="9.52"></rect>
+                    <path d="M5.37612556,17.92 C8.34527772,17.92 10.7522511,15.8382933 10.7522511,13.2703779 C10.7522511,10.7024625 7.23179985,-0.279792469 5.37612556,0.00545663795 C3.52045127,0.290705745 1.39266376e-14,10.7024625 1.39266376e-14,13.2703779 C1.39266376e-14,15.8382933 2.4069734,17.92 5.37612556,17.92 Z" id="Oval-40" fill="url(#linearGradient-6)"></path>
+                </g>
+                <ellipse id="椭圆形" fill="url(#linearGradient-7)" cx="176.5" cy="119" rx="24" ry="3"></ellipse>
+                <rect id="矩形" fill="#E6E6E6" fill-rule="nonzero" x="98.5" y="12" width="155" height="98"></rect>
+                <rect id="矩形" fill="#FFFFFF" fill-rule="nonzero" x="103.5" y="24" width="145" height="80"></rect>
+                <rect id="矩形" fill="#F3F3F3" fill-rule="nonzero" x="98.5" y="12" width="155" height="6"></rect>
+                <rect id="矩形" fill="#F3F3F3" fill-rule="nonzero" x="116.5" y="32" width="37" height="64"></rect>
+                <rect id="矩形" fill="#F3F3F3" fill-rule="nonzero" x="159.5" y="32" width="31" height="18"></rect>
+                <rect id="矩形" fill="#F3F3F3" fill-rule="nonzero" x="159.5" y="55" width="31" height="19"></rect>
+                <rect id="矩形" fill="#F3F3F3" fill-rule="nonzero" x="159.5" y="79" width="31" height="18"></rect>
+                <rect id="矩形" fill="#C2C9D2" fill-rule="nonzero" x="198.5" y="32" width="37" height="28"></rect>
+                <rect id="矩形" fill="#F3F3F3" fill-rule="nonzero" x="198.5" y="68" width="37" height="28"></rect>
+                <circle id="椭圆形" fill="#FFFFFF" fill-rule="nonzero" cx="103.5" cy="15" r="1"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" fill-rule="nonzero" cx="107.5" cy="15" r="1"></circle>
+                <circle id="椭圆形" fill="#FFFFFF" fill-rule="nonzero" cx="112.5" cy="15" r="1"></circle>
+                <g id="编组" transform="translate(87.899776, 79.000000)">
+                    <ellipse id="椭圆形" fill="url(#linearGradient-8)" cx="16.1002242" cy="43" rx="12.5" ry="2"></ellipse>
+                    <rect id="Rectangle-89" fill="#BDC7E1" x="8.60022421" y="26" width="2" height="17"></rect>
+                    <path d="M9.60022421,32 C14.9022816,32 19.2004484,28.2826666 19.2004484,23.6971034 C19.2004484,19.1115402 12.9139283,-0.499629408 9.60022421,0.00974399633 C6.28652012,0.519117401 2.48689958e-14,19.1115402 2.48689958e-14,23.6971034 C2.48689958e-14,28.2826666 4.29816679,32 9.60022421,32 Z" id="Oval-40" fill="url(#linearGradient-9)"></path>
+                </g>
+                <path d="M180.01645,47.1095814 C171.10028,39.5573284 157.820222,40.4803153 150.025998,49.1939695 C142.231773,57.9076238 142.74244,71.2603435 151.179241,79.348514 C159.616041,87.4366845 172.927506,87.3349323 181.240621,79.1187262 L204.280158,97.4576536 C205.119317,98.16982 206.262677,98.267603 207.084188,97.2219266 C207.905698,96.1762502 207.34368,94.9002959 206.821603,94.4472735 C206.473552,94.1452586 198.801977,88.0181029 183.806878,76.0658062 C190.183143,66.8796496 188.540418,54.3303806 180.01645,47.1095814 Z M178.309066,73.9056543 C172.54751,80.7598117 162.341538,81.6277507 155.513389,75.8442502 C148.685239,70.0607498 147.820593,59.8159038 153.582148,52.961746 C159.343703,46.1075881 169.549675,45.2396485 176.377825,51.0231485 L176.377834,51.0231485 C179.656827,53.8004845 181.702414,57.7716044 182.06459,62.0629068 C182.426766,66.3542092 181.075864,70.6141729 178.309066,73.9056543 L178.309066,73.9056543 Z" id="形状" fill="url(#linearGradient-10)" fill-rule="nonzero"></path>
+                <path d="M155.865616,75.2833189 C149.508548,69.9689475 148.329102,60.7125986 153.153691,54 C152.848124,54.3048529 152.552722,54.6241233 152.267487,54.9578112 C148.585387,59.2807089 147.511012,65.2212245 149.449068,70.5416233 C151.387123,75.862022 156.043173,79.7540087 161.663329,80.7515096 C167.283484,81.7490104 173.013909,79.7004814 176.696009,75.3775835 C176.980594,75.0434668 177.248591,74.7012889 177.5,74.3510498 C171.63222,80.1916401 162.223185,80.5970943 155.865616,75.2833189 Z" id="路径" fill="#FFFFFF" fill-rule="nonzero" opacity="0.585860283"></path>
+            </g>
+        </g>
+    </g>
+</svg>
