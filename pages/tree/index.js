@@ -2,23 +2,13 @@ import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import G6 from '@antv/g6';
 import renderNode from './renderNode';
+import './register'
+import '../registerShape'
 
 const treeData = {
   id: 'root',
   label: 'Word.exe',
   children: [
-    {
-      id: 'SubTreeNode1',
-      label: 'subroot1',
-      position: 'left',
-      children: [
-        {
-          id: 'SubTreeNode1.1',
-          position: 'left',
-          label: 'subroot1.1',
-        },
-      ],
-    },
     {
       id: 'a1',
       label: 'a1',
@@ -28,6 +18,18 @@ const treeData = {
           id: 'a1.1',
           position: 'left',
           label: 'a1.1',
+        },
+      ],
+    },
+    {
+      id: 'a3',
+      label: 'a3',
+      position: 'left',
+      children: [
+        {
+          id: 'a3.1',
+          position: 'left',
+          label: 'a3.1',
         },
       ],
     },
@@ -64,6 +66,7 @@ const treeData = {
       id: 'createFile',
       label: '创建文件',
       position: 'right',
+      collapsed:true,
       children: [
         {
           id: 'SubTreeNode3.1',
@@ -81,6 +84,7 @@ const treeData = {
       id: 'writeProcess',
       label: '写入进程',
       position: 'right',
+      collapsed:true,
       children: [
         {
           id: 'SubTreeNode4.1',
@@ -96,7 +100,7 @@ const treeData = {
     },
   ],
 };
-const optionMap = [
+export const optionMap = [
   'createFile',
   'writeFile',
   'writeProcess',
@@ -106,15 +110,19 @@ const optionMap = [
 const TreeGraphReact = () => {
   const ref = React.useRef(null);
   let graph = null;
-
+  const container = document.getElementById('container');
+  const width = container.scrollWidth;
+    const height = container.scrollHeight || 600;
+  // const height = window.innerHeight
+    
   useEffect(() => {
     if (!graph) {
       const miniMap = new G6.Minimap();
       graph = new G6.TreeGraph({
         fitView: true,
         container: ref.current,
-        width: 1200,
-        height: 500,
+        width,
+        height,
         modes: {
           default: [
             'drag-canvas',
@@ -122,17 +130,14 @@ const TreeGraphReact = () => {
             {
               type: 'collapse-expand',
               trigger: 'click',
-              // onChange(item,collapsed){
-              //   console.log(item,collapsed)
-              // }
               shouldBegin: (e) => {
-                console.log(e.item.getModel())
+                // console.log(e.item.getModel());
                 if (optionMap.includes(e.item.getID())) {
                   return true;
                 } else {
                   return false;
                 }
-              }
+              },
             },
           ],
         },
@@ -166,11 +171,12 @@ const TreeGraphReact = () => {
         plugins: [miniMap],
       });
     }
-    graph.node((node) => renderNode(node));
-    graph.on('itemcollapsed',e=>{
-      console.log(e)
-    })
+    // graph.on('node:click',e=>{
+    //   console.log(e)
+    // })
+    graph.node((node) => renderNode(node,graph));
     graph.data(treeData);
+    graph.addChild({id:'123'},'writeFile')
     graph.render();
   }, []);
 

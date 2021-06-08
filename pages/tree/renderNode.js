@@ -1,5 +1,5 @@
-export default function renderNode(node) {
-  // console.log(node);
+import { optionMap } from './index';
+export default function renderNode(node, graph) {
   if (node.depth === 0) {
     node.icon = {
       show: true,
