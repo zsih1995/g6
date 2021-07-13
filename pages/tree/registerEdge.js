@@ -1,0 +1,94 @@
+import G6 from '@antv/g6';
+
+G6.registerEdge('processEdge', {
+  draw(cfg, group) {
+    console.log(group)
+    const edge = group.cfg.item;
+    const sourceNode = edge.getSource().getModel();
+    const targetNode = edge.getTarget().getModel();
+
+    // const sourceIndex = sourceNode.attrs.findIndex(
+    //   (e) => e.key === cfg.sourceKey
+    // );
+
+    // const sourceStartIndex = sourceNode.startIndex || 0;
+
+    // let sourceY = 15;
+
+    // if (!sourceNode.collapsed && sourceIndex > sourceStartIndex - 1) {
+    //   sourceY = 30 + (sourceIndex - sourceStartIndex + 0.5) * 30;
+    //   sourceY = Math.min(sourceY, 300);
+    // }
+
+    // const targetIndex = targetNode.attrs.findIndex(
+    //   (e) => e.key === cfg.targetKey
+    // );
+
+    // const targetStartIndex = targetNode.startIndex || 0;
+
+    // let targetY = 15;
+
+    // if (!targetNode.collapsed && targetIndex > targetStartIndex - 1) {
+    //   targetY = (targetIndex - targetStartIndex + 0.5) * 30 + 30;
+    //   targetY = Math.min(targetY, 300);
+    // }
+
+    // const startPoint = {
+    //   ...cfg.startPoint
+    // };
+    // const endPoint = {
+    //   ...cfg.endPoint
+    // };
+
+    // startPoint.y = startPoint.y + sourceY;
+    // endPoint.y = endPoint.y + targetY;
+
+    // let shape;
+    // if (sourceNode.id !== targetNode.id) {
+    //   shape = group.addShape("path", {
+    //     attrs: {
+    //       stroke: "#5B8FF9",
+    //       path: [
+    //         ["M", startPoint.x, startPoint.y],
+    //         [
+    //           "C",
+    //           endPoint.x / 3 + (2 / 3) * startPoint.x,
+    //           startPoint.y,
+    //           endPoint.x / 3 + (2 / 3) * startPoint.x,
+    //           endPoint.y,
+    //           endPoint.x,
+    //           endPoint.y,
+    //         ],
+    //       ],
+    //       endArrow: true,
+    //     },
+    //     name: "path-shape",
+    //   });
+    // } else if (!sourceNode.collapsed) {
+    //   let gap = Math.abs((startPoint.y - endPoint.y) / 3);
+    //   if (startPoint["index"] === 1) {
+    //     gap = -gap;
+    //   }
+    //   shape = group.addShape("path", {
+    //     attrs: {
+    //       stroke: "#5B8FF9",
+    //       path: [
+    //         ["M", startPoint.x, startPoint.y],
+    //         [
+    //           "C",
+    //           startPoint.x - gap,
+    //           startPoint.y,
+    //           startPoint.x - gap,
+    //           endPoint.y,
+    //           startPoint.x,
+    //           endPoint.y,
+    //         ],
+    //       ],
+    //       endArrow: true,
+    //     },
+    //     name: "path-shape",
+    //   });
+    // }
+    // return shape
+  },
+});
